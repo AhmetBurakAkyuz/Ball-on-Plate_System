@@ -1,0 +1,20 @@
+/COM,ANSYS RELEASE 2022 R2           BUILD 22.2      UP20220516       21:48:45
+
+ *** WARNING ***                         CP =       2.547   TIME= 21:48:46
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       3.688   TIME= 21:48:47
+ Maximum contact stiffness 4.151783761E+16 is too big which can cause an 
+ accuracy problem, you may scale the force units in the model.           
+
+ *** WARNING ***                         CP =       3.688   TIME= 21:48:47
+ Overconstraint may occur for Lagrange multiplier or MPC based contact   
+ algorithm.                                                              
+
+ *** WARNING ***                         CP =       3.688   TIME= 21:48:47
+ Certain contact elements (for example 93195 & 93242) overlap with       
+ other.                                                                  
+
+ *** WARNING ***                         CP =       3.688   TIME= 21:48:47
+ Certain contact pairs (for example 52 & 50) overlap with other.         

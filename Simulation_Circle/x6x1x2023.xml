@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="01/06/23||08:46:36" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="PID_Table_Assembly_21112022" uid="PID_Table_Assembly_21112022" version="1212">
+<AssemblyFile name="PID_Table_Assembly_21112022.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Joint1-1" uid="Joint1-1" entityUid="Joint1*:*Varsayilan">
+<Transform>
+<Rotation>-1 0 2.4980018054066007e-16 0 -1 -1.2073675392798575e-15 2.4980018054066012e-16 -1.2073675392798575e-15 1</Rotation>
+<Translation>-0.089939942365929171 0.12499999999999996 0.020000000000000153</Translation>
+</Transform>
+</Instance>
+<Instance name="NewConnectionForBall-1" uid="NewConnectionForBall-1" entityUid="NewConnectionForBall*:*Varsayilan">
+<Transform>
+<Rotation>0.99945305630071202 2.8419925143483923e-16 -0.033069445885381674 3.0335102552196224e-16 -1 5.7412084317487701e-16 -0.033069445885381674 -5.8383848171984636e-16 -0.99945305630071202</Rotation>
+<Translation>-0.036330898120884532 0.12500016994374952 0.11364503360781678</Translation>
+</Transform>
+</Instance>
+<Instance name="NewConnectionForBall-2" uid="NewConnectionForBall-2" entityUid="NewConnectionForBall*:*Varsayilan">
+<Transform>
+<Rotation>-1.5023967032949979e-16 0.99945305630071191 -0.033069445885382034 1 1.6977731787175261e-16 5.8799863098269018e-16 5.9329147066221033e-16 -0.033069445885382034 -0.99945305630071191</Rotation>
+<Translation>-0.088802183576671953 0.17750016994374951 0.11538117951679934</Translation>
+</Transform>
+</Instance>
+<Instance name="ServoMotor-1" uid="ServoMotor-1" grounded="true" entityUid="ServoMotor*:*Varsayilan">
+<Transform>
+<Rotation>-1.0000000000000002 0 2.2204460492503131e-16 2.2204460492503131e-16 -2.5522229011081549e-15 1.0000000000000002 0 1 2.5522229011081541e-15</Rotation>
+<Translation>-0.031439942365929133 0.10099999999999999 0.015000000000000468</Translation>
+</Transform>
+</Instance>
+<Instance name="NewConnectionforServo-4" uid="NewConnectionforServo-4" entityUid="NewConnectionforServo*:*Varsayilan">
+<Transform>
+<Rotation>8.9285713780922046e-16 2.2724049822955215e-16 -0.99999999999999989 -0.99964769865904657 0.026542015101945201 -8.8651116230650807e-16 0.026542015101945201 0.99964769865904657 2.5085866873291879e-16</Rotation>
+<Translation>-0.10243994236592911 0.17750739832815579 0.048057382317158684</Translation>
+</Transform>
+</Instance>
+<Instance name="NewConnectionforServo-1" uid="NewConnectionforServo-1" entityUid="NewConnectionforServo*:*Varsayilan">
+<Transform>
+<Rotation>-0.99654406087039982 -0.083065845832885177 2.0602504138332935e-16 4.2305041657643717e-16 -2.5950899138298745e-15 1 -0.083065845832885177 0.99654406087039982 2.6212624817347153e-15</Rotation>
+<Translation>-0.037367367644202641 0.1374999999999999 0.045755617237511662</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball-1" uid="Ball-1" entityUid="Ball*:*Varsayilan">
+<Transform>
+<Rotation>0.62145149744218819 0.75383956802741425 0.21336340361716993 0.042952733013719199 0.2391445249566452 -0.97003348339627549 -0.78227431189673746 0.61199330213614433 0.11623725343874886</Rotation>
+<Translation>-0.086826216256759792 0.12176327360031033 0.13197692926453131</Translation>
+</Transform>
+</Instance>
+<Instance name="NewAttempt-1" uid="NewAttempt-1" entityUid="NewAttempt*:*Varsayilan">
+<Transform>
+<Rotation>3.3260276881771372e-16 -1 1.5261147273551697e-16 -0.0001328747134229699 -1.5265566588587698e-16 -0.99999999117215532 0.99999999117215532 3.3258248767584338e-16 -0.0001328747134229699</Rotation>
+<Translation>-0.1064399423659291 0.17750491336215576 0.066758954030756462</Translation>
+</Transform>
+</Instance>
+<Instance name="ServoMotor-2" uid="ServoMotor-2" grounded="true" entityUid="ServoMotor*:*Varsayilan">
+<Transform>
+<Rotation>8.7430063189231078e-16 2.0028900471872652e-16 -1.0000000000000002 -1.0000000000000002 -1.1657341758564138e-15 -8.7430063189231078e-16 -1.1657341758564142e-15 1 2.0028900471872546e-16</Rotation>
+<Translation>-0.065939942365929122 0.18350000000000005 0.015000000000000197</Translation>
+</Transform>
+</Instance>
+<Instance name="Base-3" uid="Base-3" entityUid="Base*:*Varsayilan">
+<Transform>
+<Rotation>-1.5110639440952222e-16 0.99945305630071191 -0.033069445885381979 1 1.6283842396784543e-16 3.5207623824984264e-16 3.5726864881912949e-16 -0.033069445885381979 -0.99945305630071191</Rotation>
+<Translation>0.011374608174596941 0.22500016994374944 0.11907040632236614</Translation>
+</Transform>
+</Instance>
+<Instance name="Joint2-1" uid="Joint2-1" entityUid="Joint2*:*Varsayilan">
+<Transform>
+<Rotation>0 0.99945305630071191 -0.033069445885382034 1 0 1.1615384551699478e-16 1.1737359874829119e-16 -0.033069445885382034 -0.99945305630071191</Rotation>
+<Translation>-0.08890139191432811 0.12500016994374938 0.11238282034789719</Translation>
+</Transform>
+</Instance>
+<Instance name="JointUnion-1" uid="JointUnion-1" entityUid="JointUnion*:*Varsayilan">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.089939942365929129 0.12500016994374938 0.069000000000000283</Translation>
+</Transform>
+</Instance>
+<Instance name="RealBase-2" uid="RealBase-2" grounded="true" entityUid="RealBase*:*Varsayilan">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.1119883499683909 0.19590370786516853 0</Translation>
+</Transform>
+</Instance>
+<Instance name="NewAttempt-2" uid="NewAttempt-2" entityUid="NewAttempt*:*Varsayilan">
+<Transform>
+<Rotation>0.01084617654164511 2.2385389693383533e-16 -0.99994117849722919 -2.5049096128821309e-15 1 1.9669677505155049e-16 0.99994117849722919 2.502628862387015e-15 0.01084617654164511</Rotation>
+<Translation>-0.037164527094008325 0.14149999999999988 0.0644560890616514</Translation>
+</Transform>
+</Instance>
+<Instance name="NewAttempt2-1" uid="NewAttempt2-1" entityUid="NewAttempt2*:*Varsayilan">
+<Transform>
+<Rotation>-0.03305975342347283 -0.00080059649348554474 0.9994530563007118 -0.024209552717037747 0.99970690582652322 1.6367201213849957e-16 -0.99916012243324648 -0.024196311454716572 -0.033069445885381951</Rotation>
+<Translation>-0.10643994236592882 0.17750016994374951 0.1024573818369082</Translation>
+</Transform>
+</Instance>
+<Instance name="NewAttempt2-2" uid="NewAttempt2-2" entityUid="NewAttempt2*:*Varsayilan">
+<Transform>
+<Rotation>-0.78477591802058666 -0.61977960477491145 2.276307634953821e-16 -2.1094237467877966e-15 2.3037127760971998e-15 -1 0.61977960477491145 -0.78477591802058666 -3.1152761248043873e-15</Rotation>
+<Translation>-0.036777335640337444 0.14149999999999954 0.10015241734775743</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RealBase-2</Uid>
+</InstancePath>
+<Position>0.0020484076024617354 -0.090903707865168534 0.014999999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint1-1</Uid>
+</InstancePath>
+<Position>0.020000000000000004 0.020000000000000004 -0.0049999999999999992</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RealBase-2</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint1-1</Uid>
+</InstancePath>
+<Position>0 0 -0.005000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RealBase-2</Uid>
+</InstancePath>
+<Position>0.042048407602461743 -0.050903707865168513 0.014999999999999999</Position>
+<Axis>-1 -1.7347234759768068e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint1-1</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 -0.020000000000000004 -0.0049999999999999992</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint1-1</Uid>
+</InstancePath>
+<Position>-0.0074999999999999928 -1.6994374947565394e-07 0.052000000000000018</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>JointUnion-1</Uid>
+</InstancePath>
+<Position>0.0074999999999999928 0 0.0030000000000000027</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint1-1</Uid>
+</InstancePath>
+<Position>-0.0050000000000000044 0.0079999999999999932 0.045999999999999999</Position>
+<Axis>1 1.0842021724855042e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JointUnion-1</Uid>
+</InstancePath>
+<Position>0.0050000000000000044 0.0050000000000000044 0.014999999999999999</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident55">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint2-1</Uid>
+</InstancePath>
+<Position>-0.0099999999999999811 0.009999999999999995 -0.0030000000000000027</Position>
+<Axis>-1 1.7347234759768073e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.11000000000000006 -0.09000000000000008 0.0070000000000000201</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident56">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint2-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0030000000000000027</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0070000000000000062</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint2-1</Uid>
+</InstancePath>
+<Position>-0.009999999999999995 -0.010000000000000009 -0.0030000000000000027</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.11000000000000006 -0.1100000000000001 0.0070000000000000062</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident58">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NewConnectionForBall-2</Uid>
+</InstancePath>
+<Position>0.0075000000000000344 -0.010000000000000023 0.0030000000000000027</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.054999999999999993 -0.11000000000000008 0.0070000000000000201</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident59">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NewConnectionForBall-2</Uid>
+</InstancePath>
+<Position>0.0075000000000000067 0.009999999999999995 0.0030000000000000165</Position>
+<Axis>1 1.7347234759768071e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.040000000000000008 -0.09000000000000008 0.0070000000000000201</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident60">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NewConnectionForBall-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0070000000000000062</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident61">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NewConnectionForBall-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0070000000000000062</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident62">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NewConnectionForBall-1</Uid>
+</InstancePath>
+<Position>0.0074999999999999997 0.0099999999999999672 0.0029999999999999888</Position>
+<Axis>1.0000000000000002 1.7347234759768086e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.10999999999999999 -0.040000000000000008 0.0070000000000000062</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident73">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NewConnectionForBall-1</Uid>
+</InstancePath>
+<Position>0.0075000000000000067 -0.010000000000000009 0.0029999999999999888</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.089999999999999997 -0.040000000000000008 0.0070000000000000062</Position>
+<Axis>-1 -9.2518585385429718e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident76">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint2-1</Uid>
+</InstancePath>
+<Position>-0.0049999999999999906 0.0080000000000000071 0.025400000000000006</Position>
+<Axis>1 1.0842021724855043e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JointUnion-1</Uid>
+</InstancePath>
+<Position>0.0050000000000000044 -0.0050000000000000044 0.014999999999999999</Position>
+<Axis>1.7347234759768068e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint2-1</Uid>
+</InstancePath>
+<Position>-0.0074999999999999789 -1.6994374947565394e-07 0.031399999999999997</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>JointUnion-1</Uid>
+</InstancePath>
+<Position>0 0.0075000000000000067 0.011999999999999997</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident81">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RealBase-2</Uid>
+</InstancePath>
+<Position>0.080548407602461736 -0.079903707865168525 0.014999999999999999</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ServoMotor-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident82">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RealBase-2</Uid>
+</InstancePath>
+<Position>0.080548407602461736 -0.094903707865168524 0.014999999999999999</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ServoMotor-1</Uid>
+</InstancePath>
+<Position>0 0.045000000000000005 0.014999999999999999</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident83">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RealBase-2</Uid>
+</InstancePath>
+<Position>0.031048407602461733 0.017596292134831493 0.014999999999999999</Position>
+<Axis>1 1.1564823173178715e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ServoMotor-2</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident84">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RealBase-2</Uid>
+</InstancePath>
+<Position>0.031048407602461733 -0.012403707865168506 0.014999999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ServoMotor-2</Uid>
+</InstancePath>
+<Position>0 0.045000000000000005 0.015000000000000013</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident86">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RealBase-2</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ServoMotor-2</Uid>
+</InstancePath>
+<Position>-0.030000000000000054 0 0.015000000000000013</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident104">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RealBase-2</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ServoMotor-1</Uid>
+</InstancePath>
+<Position>-0.030000000000000016 0 0.015000000000000013</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric29">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>NewConnectionForBall-2</Uid>
+</InstancePath>
+<Position>0 -0.0040000000000000036 0.013499999999999998</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>NewAttempt2-1</Uid>
+</InstancePath>
+<Position>0 0 0.029999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric31">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>NewConnectionForBall-1</Uid>
+</InstancePath>
+<Position>0 -0.0040000000000000036 0.013499999999999998</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>NewAttempt2-2</Uid>
+</InstancePath>
+<Position>0 0 0.029999999999999985</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>NewAttempt-1</Uid>
+</InstancePath>
+<Position>0.035698428121291342 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>NewAttempt2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>NewAttempt-2</Uid>
+</InstancePath>
+<Position>0.035698428121291342 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>NewAttempt2-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident114">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ServoMotor-1</Uid>
+</InstancePath>
+<Position>-0.015000000000000003 0.032500000000000001 0.038499999999999993</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>NewConnectionforServo-1</Uid>
+</InstancePath>
+<Position>-0.020999999999999991 0 0.0020000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident115">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NewConnectionforServo-1</Uid>
+</InstancePath>
+<Position>-0.005656854249492374 -0.0059999999999999984 0.0020000000000000295</Position>
+<Axis>1.5332934166833754e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NewAttempt-2</Uid>
+</InstancePath>
+<Position>-0.014118996183752834 -0.0020000000000000295 0.030000000000000006</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric34">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>NewConnectionforServo-1</Uid>
+</InstancePath>
+<Position>0 0 0.0060010000000000063</Position>
+<Axis>3.4499101875375905e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>NewAttempt-2</Uid>
+</InstancePath>
+<Position>-0.018701571878708662 -0.028000000000000025 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident116">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ServoMotor-2</Uid>
+</InstancePath>
+<Position>-0.015000000000000013 0.032500000000000015 0.03850000000000002</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>NewConnectionforServo-4</Uid>
+</InstancePath>
+<Position>-0.020999999999999991 0 0.0019999999999999879</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident117">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NewConnectionforServo-4</Uid>
+</InstancePath>
+<Position>-0.0056568542494923602 -0.0059999999999999984 0.0020000000000000018</Position>
+<Axis>1.5332934166833751e-16 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NewAttempt-1</Uid>
+</InstancePath>
+<Position>-0.014118996183752834 -0.0020000000000000295 0.030000000000000027</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric35">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>NewConnectionforServo-4</Uid>
+</InstancePath>
+<Position>0 0 0.0060010000000000063</Position>
+<Axis>3.4499101875375924e-16 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>NewAttempt-1</Uid>
+</InstancePath>
+<Position>-0.018701571878708668 -0.028000000000000011 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Ball" uid="Ball*:*Varsayilan" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Ball.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013907437978360313</Mass>
+<CenterOfMass>-0.0075000000000000006 0 0</CenterOfMass>
+<Inertia>3.129173545131071e-07 3.129173545131071e-07 3.129173545131071e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Ball_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078432148578124" g="0.49568628189610503" b="0.47058824230642882" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base" uid="Base*:*Varsayilan" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.97566720000000073</Mass>
+<CenterOfMass>-0.10011901763224183 -0.10011901763224183 0.0049735516372795968</CenterOfMass>
+<Inertia>0.0032785717625874078 0.0032785717625874095 0.0065409525829642377 4.0949682619649352e-07 4.0949682619646509e-07 1.3820517884305405e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.15000000000000002"/>
+<Diffuse r="1" g="1" b="1" a="0.15000000000000002"/>
+<Specular r="0.89999997615814209" g="0.89999997615814209" b="0.89999997615814209" a="0.15000000000000002"/>
+<Emissive r="0" g="0" b="0" a="0.15000000000000002"/>
+<Shininess>0.30000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Joint1" uid="Joint1*:*Varsayilan" version="139">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Joint1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016429787321346902</Mass>
+<CenterOfMass>5.9567124113825439e-09 6.8008252605862055e-10 0.011084903123067641</CenterOfMass>
+<Inertia>5.7301015808874972e-06 5.7395618970550879e-06 2.3747976305680878e-06 -4.1644760896001205e-13 -3.7951230076808137e-12 1.9711906322193668e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Joint1_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="1" b="1" a="1"/>
+<Diffuse r="0" g="1" b="1" a="1"/>
+<Specular r="0" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Joint2" uid="Joint2*:*Varsayilan" version="163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Joint2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0059894732333003178</Mass>
+<CenterOfMass>9.138520580987301e-09 -5.7676378685341888e-09 0.01071287318933906</CenterOfMass>
+<Inertia>6.5548502765132028e-07 6.6494544720770263e-07 2.190804541137956e-07 7.3878123704258731e-13 -1.1749092163819328e-12 -1.2627115455688661e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Joint2_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.058823529411764705" g="1" b="0.23529411764705882" a="1"/>
+<Diffuse r="0.058823529411764705" g="1" b="0.23529411764705882" a="1"/>
+<Specular r="0.029411764705882353" g="0.5" b="0.11764705882352941" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="JointUnion" uid="JointUnion*:*Varsayilan" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="JointUnion.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0015477869856098357</Mass>
+<CenterOfMass>2.9202473732055988e-08 6.4038888261615787e-08 0.0075000445234817605</CenterOfMass>
+<Inertia>4.1937763167861888e-08 4.1937010781149451e-08 2.7049867689636995e-08 5.2568805507825519e-13 3.251900133304898e-13 3.5309747708300899e-13</Inertia>
+</MassProperties>
+<GeometryFile name="JointUnion_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0.035294117647058823" b="1" a="1"/>
+<Diffuse r="0" g="0.035294117647058823" b="1" a="1"/>
+<Specular r="0" g="0.017647058823529412" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="NewAttempt" uid="NewAttempt*:*Varsayilan" version="261">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="NewAttempt.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00098303198836291027</Mass>
+<CenterOfMass>0.0080059989276947251 0 0</CenterOfMass>
+<Inertia>4.8909540786962007e-09 4.116459968543341e-07 4.0896873213382554e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="NewAttempt_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="NewAttempt2" uid="NewAttempt2*:*Varsayilan" version="135">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="NewAttempt2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00015629532420635453</Mass>
+<CenterOfMass>0 0 0.0046930532886152532</CenterOfMass>
+<Inertia>1.2248843372767071e-08 1.2248836196849929e-08 4.1813775660782145e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="NewAttempt2_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="NewConnectionForBall" uid="NewConnectionForBall*:*Varsayilan" version="176">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="NewConnectionForBall.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0014709221110783869</Mass>
+<CenterOfMass>0 0 0.0048852225272644325</CenterOfMass>
+<Inertia>6.8288634347273456e-08 5.8883398273685762e-08 5.2117222889287941e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="NewConnectionForBall_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="NewConnectionforServo" uid="NewConnectionforServo*:*Varsayilan" version="283">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="NewConnectionforServo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00083149743479285206</Mass>
+<CenterOfMass>-0.010499999999999994 0 0</CenterOfMass>
+<Inertia>8.4701958209467909e-09 8.7931094501270808e-08 9.4331019873242584e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="NewConnectionforServo_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RealBase" uid="RealBase*:*Varsayilan" version="132">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RealBase.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.2374999999999996</Mass>
+<CenterOfMass>0.021884771238825373 -0.071007344228804878 0.0099242424242424257</CenterOfMass>
+<Inertia>0.0065372885438636317 0.0065372686988636334 0.01299269644727272 9.7159090909090791e-07 1.5340909090908515e-06 2.0986363635711286e-08</Inertia>
+</MassProperties>
+<GeometryFile name="RealBase_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="1" b="0" a="1"/>
+<Diffuse r="0" g="1" b="0" a="1"/>
+<Specular r="0" g="0.5" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ServoMotor" uid="ServoMotor*:*Varsayilan" version="148">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ServoMotor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.02735573335836184</Mass>
+<CenterOfMass>-0.015000000000000001 0.025097529835985857 0.0092062731563904727</CenterOfMass>
+<Inertia>5.9661198010267083e-06 3.639028821095639e-06 5.8125160918146795e-06 -3.4552031416907049e-07 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ServoMotor_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

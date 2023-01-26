@@ -1,0 +1,12 @@
+/COM,ANSYS RELEASE 2022 R2           BUILD 22.2      UP20220516       21:49:04
+
+ *** WARNING ***                         CP =       4.234   TIME= 21:49:08
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       8.594   TIME= 21:49:13
+ A linear perturbation analysis with contact usually requires turning on 
+ large deflection option (NLGEOM,ON) in the base analysis.  Otherwise    
+ the down-stream analysis will not use the current deformation           
+ configuration which might lead to inaccurate solution or even memory    
+ error.                                                                  

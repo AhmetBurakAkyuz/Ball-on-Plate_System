@@ -1,0 +1,9 @@
+/COM,ANSYS RELEASE 2022 R2           BUILD 22.2      UP20220516       20:01:35
+
+ *** WARNING ***                         CP =       0.812   TIME= 20:01:36
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       1.312   TIME= 20:01:36
+ Maximum contact stiffness 3.000719621E+16 is too big which can cause an 
+ accuracy problem, you may scale the force units in the model.           
